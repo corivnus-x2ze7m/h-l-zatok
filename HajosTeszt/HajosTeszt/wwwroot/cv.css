@@ -4,7 +4,7 @@
 }
 h1 {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2.5em;
     font-style: oblique, italic;
     border: 2px dashed black;
     border-left: hidden;
@@ -18,4 +18,20 @@ h2 {
     border: 1px solid black;
     border-left: hidden;
     border-right: hidden;
+}
+a {
+    text-decoration:none;
+}
+img{
+    border: 2px dotted green;
+    border-radius: 5px;
+    float: right;
+    vertical-align: central;
+}
+img:hover {
+    border-color: fuchsia;
+}
+.mellék {
+    font-style: italic;
+    font-size: 0.9em;
 }
