@@ -1,3 +1,21 @@
-﻿body {
+﻿div {
+    border: 5px grey solid;
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+    font-size: 1.1em;
+    font-style: oblique, italic;
+    border: 2px dashed black;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+}
 
+h2 {
+    text-decoration:dashed;
+    font-style: oblique;
+    border: 1px solid black;
+    border-left: hidden;
+    border-right: hidden;
 }
