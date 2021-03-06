@@ -1,0 +1,38 @@
+﻿h1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 3em;
+    background-color: fuchsia;
+    color: white;
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 10px;
+}
+h2 {
+    display: flex;
+    justify-content: right;
+    font-size: 2em;
+    background-color: lightblue;
+    flex-direction: row;
+}
+a {
+    display: flex;
+
+}
+ul {
+    display: flex;
+    justify-content: left;
+    background-color: lightcoral;
+    flex-direction: column;
+}
+ol {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+p {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    justify-content: center;
+}
