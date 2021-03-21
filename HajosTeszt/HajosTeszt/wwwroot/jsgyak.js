@@ -1,9 +1,9 @@
 ﻿function faktor(n) {
-    var eredmeny = 1;
-    for (var i = 2;i <=n; n++) {
-        eredmeny = eredmeny * i;
+    if (n === 0 || n === 1) {
+        return 1;
+    } else {
+        return n * faktor(n - 1)
     }
-    return eredmeny;
 }
 
 function firsttask() {
@@ -21,15 +21,15 @@ window.onload = () => {
 
     for (var row = 0; row < 10; row++) {
         var newRow = document.createElement("div")
-        newRow.classList.add("sor")
+        newRow.classList.add("row")
         document.getElementById("secondtask").appendChild(newRow);
 
         for (var col = 0; col <= row; col++) {
             var newItem = document.createElement("div");
-            newItem.classList.add("elem");
+            newItem.classList.add("item");
             newItem.classList.add("box");
             newItem.innerText = faktor(row) / (faktor(col) * faktor(row - col));
-            newItem.style.color = rgb(0, 0, ${ 255 - (255 / 15 * newItem.innerText) });
+            newItem.style.color = rgb(0, 0, ${255 - (255 / 10 * newItem.innerText)});
             newRow.appendChild(newItem);
         }
     }
